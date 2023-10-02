@@ -1,6 +1,6 @@
 site_name: 'Backstage'
 site_description: 'Main documentation for Backstage features and platform APIs'
-repo_url: https://github.com/backstage/backstage
+repo_url: https://github.com/BapAtRb/backstage
 edit_uri: edit/master/docs
 
 plugins:
@@ -8,6 +8,7 @@ plugins:
 
 # For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
 nav:
+  - Home: conf/index.md
   - Overview:
       - What is Backstage?: 'overview/what-is-backstage.md'
       - Architecture overview: 'overview/architecture-overview.md'
